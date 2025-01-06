@@ -1,0 +1,10 @@
+﻿namespace IEProxyManagment
+{
+	public enum PerConnOption
+	{
+		INTERNET_PER_CONN_FLAGS = 1,
+		INTERNET_PER_CONN_PROXY_SERVER,
+		INTERNET_PER_CONN_PROXY_BYPASS,
+		INTERNET_PER_CONN_AUTOCONFIG_URL
+	}
+}
